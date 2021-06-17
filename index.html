@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookCart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      🛒Book cart
+    </a>
+    <div>
+      Abhinav Kumar Gaur
+    </div>
+  </nav>
+  <h3>
+    📚 Shop as much as you can
+    <small class="text-muted">Get 10% off now !! 🖊️</small>
+  </h3>
+  <h5>
+    <small class="text-muted">Buy Books at best prices !!!</small>
+  </h5>
+  <h5>
+    <small class="text-muted">It is an implementation of cart using Javascript and bootstrap!!</small>
+  </h5>
+  <br>
+  <div id="container">
+    <table>
+      <tr>
+        <th>In Search of Lost Time </th>
+        <th> Ulysses </th>
+        <th>Don Quixote </th>
+        <th>One Hundred Years of Solitude </th>
+        <th>The Great Gatsby </th>
+      </tr>
+      <tr>
+        <td><img src="1.jpg" alt=""></td>
+        <td><img src="2.jpg" alt=""></td>
+        <td><img src="3.jpg" alt=""></td>
+        <td><img src="4.jpg" alt=""></td>
+        <td><img src="5.jpg" alt=""></td>
+      </tr>
+      <tr>
+        <td>cost:230 💸</td>
+        <td>cost:420 💸</td>
+        <td>cost:150 💸</td>
+        <td>cost:380 💸</td>
+        <td>cost:100 💸</td>
+      
+      </tr>
+      <tr>
+        <td>by Marcel Proust</td>
+        <td>by James Joyce</td>
+        <td>by Miguel de Cervantes</td>
+        <td>by Gabriel Garcia Marquez</td>
+        <td>by F. Scott Fitzgerald</td>
+      </tr>
+      <tr>
+        <td><button type="button" class="btn  center_buttons" id="add1"  onclick="calculate(1)">Add To Cart</button>
+        </td>
+        <td><button type="button" class="btn  center_buttons" id="add2" onclick="calculate(2)">Add To Cart</button>
+        </td>
+
+        <td><button type="button" class="btn  center_buttons" id="add3" onclick="calculate(3)">Add To Cart</button>
+        </td>
+        <td><button type="button" class="btn  center_buttons" id="add4" onclick="calculate(4)">Add To Cart</button>
+        </td>
+        <td><button type="button" class="btn  center_buttons" id="add5" onclick="calculate(5)">Add To Cart</button>
+        </td>
+      </tr>
+
+    </table>
+  </div>
+  <br><br><br>
+  <h3>
+  ⏬  Your Cart
+    <small class="text-muted">Buying option Coming soon!!</small>
+  </h3>
+
+ 
+  <div class="cartlist" id="cartContainer">
+    Empty 👎 Add some items !!!
+  </div>
+
+  <div id="total">
+  </div>
+  <div id="discount">
+  </div>
+  <div id="finalamt">
+  </div>
+  <div id="buy">
+    <button type="button" class="btn btn-danger center_buttons" id="add5" onclick="alert('we will soon add this feature')">Buy</button>
+  </div>
+  <br>
+  <footer class="page-footer font-small blue">
+    <div class="footer-copyright text-center py-3">Code link:
+      <a href="https://github.com/Abhinav7272/Abhinav7272-CartwithoutDatabase-JS-"> 🌻developed by A K Gaur(click for code)</a>
+    </div>
+  </footer>
+<script src="script.js"></script>
+</body>
+
+</html>
